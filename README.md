@@ -1,4 +1,4 @@
-﻿# OrthoScoreTraj
+# OrthoScoreTraj
 
 **Dropout-Orthogonal Signature Scoring and UMAP-Free Geodesic Trajectory Inference for Single-Cell RNA-Seq**
 
@@ -18,7 +18,7 @@
 ```r
 # install.packages("remotes")
 remotes::install_github("Abdelmoumene-Chetibi/OrthoScoreTraj")
-`` 
+```
 
 ## Quick Start
 
@@ -37,14 +37,14 @@ counts[exhaustion_genes, 101:200] <- counts[exhaustion_genes, 101:200] + 8
 
 score_res <- calc_ortho_score(counts, target_genes = exhaustion_genes, confound_genes = cytotoxic_genes)
 traj_res <- infer_geodesic_traj(counts, n_pcs = 15, k = 15)
-dyn_genes <- test_dynamic_genes(counts, pseudotime = traj_res$pseudotime, genes_to_test = paste0("Gene", 1:30))
+dyn_genes <- test_dynamic_genes(counts, pseudotime = traj_res\$pseudotime, genes_to_test = paste0("Gene", 1:30))
 plot_ortho_diagnostics(score_res, traj_res)
-`` 
+```
 
 ## Benchmark Highlights (10x Genomics Human PBMC)
 
-* **81.4% Reduction in Spurious Cross-Signature Correlation:** Decouples cytotoxic effector activity from exhaustion scoring.
-* **~50x Speedup in Trajectory Inference:** Computes geodesic diffusion distances in ~5 seconds directly in PCA space.
+- **81.4% Reduction in Spurious Cross-Signature Correlation:** Decouples cytotoxic effector activity from exhaustion scoring.
+- **~50x Speedup in Trajectory Inference:** Computes geodesic diffusion distances in ~5 seconds directly in PCA space.
 
 ## Citation
 
@@ -55,7 +55,7 @@ plot_ortho_diagnostics(score_res, traj_res)
   year = {2026},
   note = {R package version 0.4.0}
 }
-`` 
+```
 
 ## License
 
