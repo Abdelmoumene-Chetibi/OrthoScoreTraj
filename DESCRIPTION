@@ -1,0 +1,31 @@
+Package: OrthoScoreTraj
+Title: Dropout-Orthogonal Signature Scoring and Geodesic Trajectory Inference
+Version: 0.4.0
+Authors@R: 
+    person(given = "Abdelmoumene",
+           family = "Chetibi",
+           email = "chetibiabdelmoumene3@gmail.com",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0008-3409-7556"))
+Description: Eliminates library-size dropout confounding and cross-signature overlap via logistic residualization and constrained Gram-Schmidt orthogonalization, coupled with RcppArmadillo-accelerated UMAP-free diffusion geodesic pseudotime inference and mixed-effect GAM dynamic gene testing for cancer immunology single-cell data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    Matrix,
+    stats,
+    graphics,
+    grDevices,
+    Rcpp,
+    mgcv
+LinkingTo:
+    Rcpp,
+    RcppArmadillo
+Config/roxygen2/version: 8.1.1
+Suggests:
+    testthat (>= 3.0.0),
+    Seurat,
+    SingleCellExperiment,
+    SummarizedExperiment,
+    irlba,
+    mclust

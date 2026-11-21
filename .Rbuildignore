@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^real_data_test$
+^src/.*\.o$
+^src/.*\.dll$
+
+^README\.md$
