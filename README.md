@@ -60,8 +60,8 @@ If you use `OrthoScoreTraj` in your research, please cite:
   year   = {2026},
   note   = {R package version 0.4.0},
   doi    = {10.5281/zenodo.24431088},
-  url    = {https://github.com/Abdelmoumene-Chetibi/OrthoScoreTraj}
-}
+  url    = {[https://github.com/Abdelmoumene-Chetibi/OrthoScoreTraj](https://github.com/Abdelmoumene-Chetibi/OrthoScoreTraj)}
+```
 ## License
 
 MIT (c) [Abdelmoumene Chetibi](https://orcid.org/0009-0008-3409-7556)
