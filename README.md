@@ -51,19 +51,17 @@ plot_ortho_diagnostics(score_res, traj_res)
 
 If you use `OrthoScoreTraj` in your research, please cite:
 
-> Chetibi, A. (2026). *OrthoScoreTraj: Dropout-Orthogonal Signature Scoring and UMAP-Free Geodesic Trajectory Inference for Single-Cell RNA-Seq* (v0.4.0). Zenodo. https://doi.org/10.5281/zenodo.24431088
+> Chetibi, A. (2026). *OrthoScoreTraj: Dropout-Orthogonal Signature Scoring and UMAP-Free Geodesic Trajectory Inference for Single-Cell RNA-Seq* (v0.4.0). Zenodo. [https://doi.org/10.5281/zenodo.24431088](https://doi.org/10.5281/zenodo.24431088)
 
 ```bibtex
 @Manual{Chetibi2026OrthoScoreTraj,
-  title  = {OrthoScoreTraj: Dropout-Orthogonal Signature Scoring and UMAP-Free Geodesic Trajectory Inference},
+  title  = {OrthoScoreTraj: Dropout-Orthogonal Signature Scoring and Geodesic Trajectory Inference},
   author = {Abdelmoumene Chetibi},
   year   = {2026},
   note   = {R package version 0.4.0},
   doi    = {10.5281/zenodo.24431088},
-  url    = {[https://github.com/Abdelmoumene-Chetibi/OrthoScoreTraj](https://github.com/Abdelmoumene-Chetibi/OrthoScoreTraj)}
+  url    = {https://github.com/Abdelmoumene-Chetibi/OrthoScoreTraj}
 }
-
-
 ## License
 
 MIT (c) [Abdelmoumene Chetibi](https://orcid.org/0009-0008-3409-7556)
