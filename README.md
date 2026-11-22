@@ -1,5 +1,6 @@
 # OrthoScoreTraj
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24431088.svg)](https://doi.org/10.5281/zenodo.24431088)
+
 **Dropout-Orthogonal Signature Scoring and UMAP-Free Geodesic Trajectory Inference for Single-Cell RNA-Seq**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -48,20 +49,20 @@ plot_ortho_diagnostics(score_res, traj_res)
 
 ## Citation
 
+If you use `OrthoScoreTraj` in your research, please cite:
+
+> Chetibi, A. (2026). *OrthoScoreTraj: Dropout-Orthogonal Signature Scoring and UMAP-Free Geodesic Trajectory Inference for Single-Cell RNA-Seq* (v0.4.0). Zenodo. https://doi.org/10.5281/zenodo.24431088
+
 ```bibtex
-@Manual{,
-  title = {OrthoScoreTraj: Dropout-Orthogonal Signature Scoring and Geodesic Trajectory Inference},
+@Manual{Chetibi2026OrthoScoreTraj,
+  title  = {OrthoScoreTraj: Dropout-Orthogonal Signature Scoring and UMAP-Free Geodesic Trajectory Inference},
   author = {Abdelmoumene Chetibi},
-  year = {2026},
-  note = {R package version 0.4.0}
+  year   = {2026},
+  note   = {R package version 0.4.0},
+  doi    = {10.5281/zenodo.24431088},
+  url    = {[https://github.com/Abdelmoumene-Chetibi/OrthoScoreTraj](https://github.com/Abdelmoumene-Chetibi/OrthoScoreTraj)}
 }
-```
 
 ## License
 
 MIT (c) [Abdelmoumene Chetibi](https://orcid.org/0009-0008-3409-7556)
-## Citation
-
-If you use `OrthoScoreTraj` in your research, please cite:
-
-> Chetibi, A. (2026). *OrthoScoreTraj: Dropout-Orthogonal Signature Scoring and UMAP-Free Geodesic Trajectory Inference for Single-Cell RNA-Seq* (v0.4.0). Zenodo. https://doi.org/10.5281/zenodo.24431088
