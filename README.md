@@ -13,7 +13,8 @@
 1. **Cross-Signature Contamination & Dropout Confounding (`calc_ortho_score`):** Applies detection-rate residualization, constrained positive Gram-Schmidt orthogonalization (beta >= 0), zero-floor preservation, and 2-component Gaussian Mixture Modeling (`GMM`) to isolate pure biological activity.
 2. **UMAP-Free Geodesic Pseudotime (`infer_geodesic_traj`):** Powered by an `RcppArmadillo` (`C++17`) backend, computes adaptive Gaussian k-NN diffusion transition matrices and multi-step geodesic distances directly in PCA space without UMAP distortions.
 3. **Donor-Aware Dynamic Gene Testing (`test_dynamic_genes`):** Fits REML-estimated Generalized Additive Models (`mgcv::gam`) with donor random effects to detect non-linear gene dynamics along pseudotime.
-
+### Benchmark Showcase: Human CD8+ T Cells (CITE-seq)
+![OrthoScoreTraj Benchmark](OrthoScoreTraj_Showcase.png)
 ## Installation
 
 ```r
