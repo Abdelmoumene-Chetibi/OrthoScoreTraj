@@ -17,7 +17,8 @@
 ![OrthoScoreTraj Benchmark](OrthoScoreTraj_Showcase.PNG)## Installation
 
 ```r
- install.packages("remotes")
+
+install.packages("remotes")
 remotes::install_github("Abdelmoumene-Chetibi/OrthoScoreTraj")
 ```
 
